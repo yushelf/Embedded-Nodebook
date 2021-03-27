@@ -42,3 +42,7 @@
 4. 最小线宽看工艺，一般6mil最小
 5. 电源线宽最小15mil 最大60mil优选15mil  30mil也行
    
+
+## DC-DC布局
+
+![image-20210319084917222](https://gitee.com/wang_chunfeng/pic-go/raw/master/img/20210319084927.png)
