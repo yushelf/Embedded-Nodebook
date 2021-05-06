@@ -85,6 +85,8 @@ ARM公司推出的AMBA片上总线受到了广大IP开发商和SoC系统集成�
   11、判断是否PLL是系统时钟 while(RCC_GetSYSCLKSource() != 0x08)
   12、打开要使用的外设时钟 RCC_APB2PeriphClockCmd()/RCC_APB1PeriphClockCmd()
 
+==不配置系统时钟的时候，STM32 会把 HSI 当作系统时钟， HSI=8M，由芯片内部的振荡器提供==
+
 下面是STM32软件固件库的程序中对RCC的配置函数(使用外部8MHz晶振)
 
 ```c
