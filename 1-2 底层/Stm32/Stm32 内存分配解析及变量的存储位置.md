@@ -14,7 +14,7 @@
 ```c
 #include<stdio.h>
 
-const int read_only_variable =2000;
+const int read_only_variable = 2000;
 int data = 500;
 
 void my_function(void)
