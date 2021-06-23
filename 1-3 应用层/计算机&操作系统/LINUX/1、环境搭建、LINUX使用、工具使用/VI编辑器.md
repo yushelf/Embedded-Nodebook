@@ -1,3 +1,5 @@
+![image-20210621094652242](https://gitee.com/wang_chunfeng/pic-go/raw/master/img/20210621094702.png)
+
 ## 三种模式
 
 1）一般模式（光标移动、复制、粘贴、删除）
