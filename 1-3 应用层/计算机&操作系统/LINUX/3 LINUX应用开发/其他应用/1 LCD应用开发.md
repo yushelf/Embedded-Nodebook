@@ -6,6 +6,6 @@
 
 一般要转换为24位图（RGB）的BMP图片才能显示。BMP就是RGB图片，一个像素点有三个颜色，每个颜色有两个字节（8位）。由于微软会自动给转换的图片加上一些特定自己，所以我们应该要记得用lseek跳过一些头文件的信息。
 
-![image-20210625161254338](assets/image-20210625161254338.png)
+![image-20210625161254338](https://gitee.com/wang_chunfeng/pic-go/raw/master/img/20211119172414.png)
 
-![image-20210625165422625](assets/image-20210625165422625.png)  
+![image-20210625165422625](https://gitee.com/wang_chunfeng/pic-go/raw/master/img/20211119172417.png)  
